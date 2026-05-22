@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Marathi Arithmetic Parser</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Arithmetic Parser</title>
+  <meta name="description" content="Parse and evaluate arithmetic expressions written with English operator words. Supports BODMAS rules with operators: plus, minus, multiply, divide." />
+  <meta name="keywords" content="arithmetic, parser, BODMAS, calculator, English, word" />
+  <meta name="author" content="Rahul Dange" />
+  <meta name="theme-color" content="#0b0b14" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Word Arithmetic Parser" />
+  <meta property="og:description" content="Parse and evaluate arithmetic expressions written with English operator words following BODMAS rules with interactive visualizations." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Word Arithmetic Parser" />
+  <meta name="twitter:description" content="Parse arithmetic expressions written with English operator words following BODMAS rules with interactive visualizations." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="container">
-    <h1>Marathi Arithmetic Parser</h1>
-    <p>This is a parser built in JavaScript that can parse arithmetic operations written in Marathi language, which is an Indian language. It follows the BODMAS (Bracket, Order, Division and Multiplication, Addition, Subtraction) rule to evaluate expressions. The parser can handle input strings that include Marathi words for division, multiplication, addition, and subtraction operations, as well as decimals, brackets, and whitespace. Notably, this parser does not use any built-in parsing mechanisms such as the `eval()` method.</p>
-    <div class="link">
-        <a href="https://github.com/rahuldangeofficial/marathi-arithmetic-parser"><b>Click here for usage instructions</b></a>
-    </div>
-    <hr>
-    <label for="input-expression" class="input-label">Enter the expression in Marathi:</label>
-    <input type="text" id="input-expression" class="input-field" placeholder="e.g. 10 अधिक 2 गुणिले 3 वजा 4 भागिले 2">
-    <button id="parse-btn" class="btn">Parse</button>
-    <label for="output-result" class="output-label">Result:</label>
-    <input type="text" id="output-result" class="output-field" readonly>
-    <p>Examples:</p>
-  <ul>
-    <li>10 अधिक 2 गुणिले 3 वजा 4 भागिले 2</li>
-    <li>10.5 अधिक 2 गुणिले (3 वजा 4) भागिले 2.5</li>
-    <li>10.5अधिक2गुणिले(3वजा4)भागिले2.5</li>
-    <li>16 वजा 8 अधिक 14 भागिले 2</li>
-    <li>16 वजा (8 अधिक 14) भागिले 2</li>
-    <li>16.5अधिक2.5गुणिले(3वजा4)भागिले2.5</li>
-    <li>1अधिक2अधिक3</li>
-  </ul>
-  </div>
-
-  <script src="script.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>

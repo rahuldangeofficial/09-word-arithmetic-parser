@@ -1,0 +1,35 @@
+{
+  "name": "09-word-arithmetic-parser",
+  "version": "1.0.0",
+  "description": "A recursive descent parser for arithmetic expressions written with English words with interactive visualizations.",
+  "type": "module",
+  "main": "src/parser/ArithmeticParser.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node examples/examples.js"
+  },
+  "keywords": [
+    "english",
+    "parser",
+    "arithmetic",
+    "bodmas",
+    "calculator",
+    "react",
+    "vite"
+  ],
+  "author": "Rahul Dange",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "lucide-react": "^0.395.0",
+    "vite": "^5.3.1"
+  }
+}
