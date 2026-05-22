@@ -9,7 +9,7 @@
 
 **A premium React Single-Page Application visualizing how arithmetic expressions written with English words are tokenized, parsed into AST trees, and evaluated under BODMAS precedence.**
 
-[Live Demo](https://rahuldangeofficial.github.io/09-word-arithmetic-parser) · [Grammar Spec](docs/GRAMMAR.md) · [Architecture](docs/ARCHITECTURE.md) · [Contributing](CONTRIBUTING.md)
+[Live Demo](https://09-word-arithmetic-parser.vercel.app/) · [Grammar Spec](docs/GRAMMAR.md) · [Architecture](docs/ARCHITECTURE.md) · [Contributing](CONTRIBUTING.md)
 
 </div>
 
